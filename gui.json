@@ -1,0 +1,89 @@
+{
+  "gui": {
+    "default-width": 1000,
+    "default-height": 700,
+    "frames": {
+      "top": {
+        "background-color": "#191E22",
+        "border-width": 0,
+        "border-style": "flat",
+        "border-color": "#ff0000",
+        "border-thickness": 0,
+        "height-percent": 40,
+        "height-percent-min": 30,
+        "height-percent-max": 70,
+        "left": {
+          "background-color": "#191E22",
+          "border-width": 0,
+          "border-style": "flat",
+          "border-color": "#ff0000",
+          "border-thickness": 0,
+          "width-percent": 50
+        },
+        "splitter": {
+          "width": 0,
+          "background-color": "#191E22"
+        },
+        "right": {
+          "background-color": "#111417",
+          "border-width": 0,
+          "border-style": "flat",
+          "border-color": "#0000ff",
+          "border-thickness": 0,
+          "width-percent": 50,
+		  "width-percent-min": 30,
+		  "width-percent-max": 70,
+          "frames": {
+            "top": {
+              "background-color": "#FF0000"
+            },
+            "bottom": {
+              "background-color": "#191E22",
+			  "padding": 10,
+              "controls": {
+                "border-style": "solid",
+                "border-width": 1,
+                "border-color": "#e1e1e1",
+                "border-radius": 5,
+				"padding": 0,
+				"button-size": 60,
+				"icon-size": 40,
+				"cell-spacing": 10,
+                "play": {
+                  "icon": "images/buttons/btn-play.png"
+                },
+                "stop": {
+                  "icon": "images/buttons/btn-stop.png",
+                  "icon-size": 30
+                },
+                "vol_up": {
+                  "icon": "images/buttons/btn-vol-up.png"
+                },
+                "vol_down": {
+                  "icon": "images/buttons/btn-vol-down.png"
+                },
+                "vol_up_fade": {
+                  "icon": "images/buttons/btn-vol-up-fade.png"
+                },
+                "vol_down_fade": {
+                  "icon": "images/buttons/btn-vol-down-fade.png"
+                }
+              }
+            }
+          }
+        }
+      },
+      "splitter": {
+        "height": 0,
+        "background-color": "#191E22"
+      },
+      "bottom": {
+        "background-color": "#232C32",
+        "border-width": 0,
+        "border-style": "flat",
+        "border-color": "#0000ff",
+        "border-thickness": 0
+      }
+    }
+  }
+}
